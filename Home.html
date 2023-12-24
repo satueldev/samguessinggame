@@ -1,0 +1,63 @@
+<!--!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <script src="home.js"></script>
+</head>
+<body>
+    <h1>Input your name to begin the game</h1>
+    <input type="text" id="text">
+ <input type="submit" id="submit" value="Next" onclick="getname()"></a>
+ <p id="para"></p>
+
+
+
+    <style>
+        @media only screen and (max-width: 600px){
+            body{
+                background-color: skyblue;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                
+            }
+            h1{
+                font-size: 25px;
+                text-align: center;
+                margin-top: 70px;
+                color: whitesmoke;
+            }
+             input{
+                display: block;
+                margin-left: 20px;
+                margin-top: 90px;
+
+          }
+             #text{
+                height: 40px;
+                width: 300px;
+                border:  3px solid green;
+                border-radius: 10px;
+                background-color: transparent;
+                text-align: center;
+                font-size: 30px;
+                outline: none;
+                color: white;
+             }
+             #submit{
+                height: 50px;
+                width: 200px;
+                margin-left: 80px;
+                border-radius: 10px;
+                background-color: green;
+                color: white;
+                font-size: 20px;
+                border: 3px solid white;
+             }
+             a{
+                text-decoration: none;
+             }
+        }
+    </style>
+</body>
+</html>
